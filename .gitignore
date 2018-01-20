@@ -16,3 +16,7 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+.idea/demo_travel_blog.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
