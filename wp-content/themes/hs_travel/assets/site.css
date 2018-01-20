@@ -1,0 +1,59 @@
+nav {
+    position: fixed;
+    min-height: 50px;
+    z-index: 200;
+    width: 100%;
+}
+
+.hidden{
+    visibility:hidden;
+}
+.visible{
+    visibility:visible;
+}
+
+.title{
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 5px 5px 10px #1f1f1f;
+    font-size: 63px;
+    font-weight: bold;
+    position:absolute;
+}
+h3.title{
+
+    font-size: 40px;
+
+}
+
+.container-fluid.bg-light{
+    
+}
+
+.top-img{
+    background-size: cover;
+      background-attachment: fixed;
+      height:80vh;
+      min-width:100%;
+      position:relative; 
+      overflow:hidden;
+}
+
+.ava-img{
+    overflow:hidden;
+    z-index:2;
+    position:absolute;
+    height:100px;
+    width:100px; 
+    border-radius:50%; 
+    left:calc(50% - 50px); 
+    bottom:-50px; 
+    border:2px solid #fff;
+}
+
+.top-img-container{
+    position:relative; 
+    z-index:2; 
+    max-height:80vh; 
+}
+
